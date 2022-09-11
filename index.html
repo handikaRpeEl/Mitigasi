@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Josefin+Sans:wght@200;300&family=Raleway:wght@100;200&family=Rampart+One&display=swap" rel="stylesheet">
+  <!-- font google ke duwa -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Poppins:wght@100;200&family=Raleway:wght@100;200&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="main">
+    <div class="nav flex">
+      <div class="box_nav">
+        <div class="nav_icon flex">
+          <ion-icon name="grid" class="icon_on"></ion-icon>
+          <input type="checkbox" name="nav_input" id="nav_input">
+          <ion-icon name="close" class="icon_off d-none"></ion-icon>
+        </div>
+        <nav>
+         <ul class="menu_anim">
+           <li>
+             <a href="#pra-bencana">Mitigasi Pra-bencana</a>
+           </li>
+           <li>
+           <a href="#pasca-bencana">MItigasi Pasca-Bencana</a>
+           </li>
+           <li>
+             <a href="#kenali">Kenali!!</a>
+           </li>
+           <li>
+             <a href="#status">Status gunung berapi</a>
+           </li>
+         </ul>
+        </nav>
+      </div>
+      
+   </div>
+ 
+    <div class="opening flex">
+      <div class="gambar-pembuka flex">
+        <div class="box_openimage">
+          <img src="assets/gunung/gunung opening.png" alt="">
+        </div>
+       </div>
+       <div class="open-text"> 
+         <div class="text-mitigasi">
+           <h2>M</h2>
+           <h2>I</h2>
+           <h2>T</h2>
+           <h2>I</h2>
+           <h2>G</h2>
+           <h2>A</h2>
+           <h2>S</h2>
+           <h2>I</h2>
+      </div>
+      <div class="gunung-berapi flex">
+        <div class="box-gunung-berapi flex"><h2>gunung-meletus</h2></div>
+      </div>
+    </div>
+    
+    </div>
+    <!--* opening  -->
+    
+    
+    <section id="pra-bencana" class="pra-bencana flex-coll">
+      <span class="efek"></span>
+      <span class="efek"></span>
+      <span class="efek"></span>
+      <div class="header-pra">
+      <h2>Apa Saja Langkah <span>Mitigasi Pra-Bencana</span> Gunung Meletus</h2>
+      </div>
+      <div class="box-pra flex">
+        <div class="section-content">
+        <ul>
+          <li> <p>Memantau berita tentang status gunung berapi</p></li>
+          <li> <p>Membentuk tim tanggap darurat ketika aktivitas gunung berapi meningkat</p></li>
+          <li> <p>Memberikan penyuluhan dan pendidikan kepada masyarakat terkait ancaman bencana</p></li>
+          <li> <p>Membangun infrastruktur evakuasi warga yang bermukim di dekat puncak gunung</p></li>
+          <li> <p>Menetapkan lokasi pengungsian dan memastikan fasilitas penunjang telah siap pakai</p></li>
+          <li> <p>Membangun tanggul tahan lahar dingin pada sungai yang di lalui</p></li>
+          <li><p>Siapkan dukungan logistik</p></li>
+        </ul>
+        </div>
+      </div>
+      
+    </section>   
+    <section id="pasca-bencana" class="flex-coll">
+      <div class="box-pasca-bencana flex">
+        <h2>Apa Saja Langkah <span>Mitigasi Pasca-Bencana</span> Gunung Meletus</h2>
+      <ul>
+        <li><p>Jangan panik dan membuat kepanikan</p></li>
+        <li><p>Gunakan masker atau kain basah agar saat bernafas tidak terhirup abu hasil letusan gunung berapi</p></li>
+        <li><p>Memakai pakaian tertutup untuk melindungi tubuh dari abu vulkanik yang bisa menyebabkan iritasi kulit dan iritasi mata</p></li>
+        <li><p>Tidak berada di lembah aliran sungai</p></li>
+        <li><p>Pergi ke tempat pengungsian yang aman</p></li>
+      </ul>
+      <img src="assets/gunung/gunung jebluk.png" alt="">
+      </div>
+    </section> 
+    <section id="kenali" class="kenali flex">
+      <h2>HAL YANG PERLU KAMU KETAHUI</h2>
+      <div class="container-card">
+        <div  class="card flex">
+          <div id="card1" class="box-card">
+            <div class="card-page page_one flex">
+              <div class="image-card flex">
+                <img src="assets/gunung/awan.jpg" alt="awan panas">
+               </div>
+               <h2>AWAN panas</h2>
+               <button onclick="clickbutton(this.id)" id="1"><ion-icon name="search"></ion-icon></button>
+               <span></span>
+
+             </div>
+             <div class="card-page page_two flex">
+              <div class="content">
+                <p>Awan panas adalah aliran suspensi dari batu, kerikil, pasir, dan abu vulkanik yang keluar bersamaan dengan gas vulkanis, memiliki suhu 200°C-800°C, dapat menyebar hingga radius 10km, dan mampu menghanguskan apa yang dilaluinya</p>
+              </div>
+              <button onclick="clickbutton(this.id)" id="1"><ion-icon name="arrow-undo"></ion-icon></button>
+             </div>
+          </div>
+        </div>
+          <!-- xard 1 -->
+        <div class="card">
+          <div id="card2" class="box-card">
+            <div class="card-page page_one flex">
+              <div class="image-card flex">
+                <img src="assets/gunung/toby-elliott-TbEqd-GNC5w-unsplash.jpg" alt="lahar">
+               </div>
+               <h2>Lava/Lahar</h2>
+               <button onclick="clickbutton(this.id)" id="2"><ion-icon name="search"></ion-icon></button>
+               <span></span>
+             </div>
+             <div class="card-page page_two flex">
+              <div class="content">
+                <p><b>Lava</b> adalah magma yang meleleh <br> <b>Lahar</b> adalah lava yang sudah bercampur dengan material lain yang ada di sekitar gunung berapi
+                </p>
+              </div>
+              <button onclick="clickbutton(this.id)" id="2"><ion-icon name="arrow-undo"></ion-icon></button>
+             </div>
+          </div>
+        </div>
+        <!-- csard2 -->
+          <div class="card">
+            <div id="card3" class="box-card">
+              <div class="card-page page_one flex">
+                <div class="image-card flex">
+                  <img src="assets/gunung/banjir-lahar-dingin-gunung-sinabung-sabtu-2282020_169.jpeg" alt="lahar dingin">
+                 </div>
+                 <h2>Banjir lahar dingin</h2>
+                 <button onclick="clickbutton(this.id)" id="3"><ion-icon name="search"></ion-icon></button>
+               <span></span>
+
+               </div>
+               <div class="card-page page_two flex">
+                <div class="content">
+                  <p>Lahar dingin juga dikenal sebagai aliran lava yang merupakan campuran lumpur dan air yang dingin terdiri dari abu vulkanik, bebatuan besar, dan puing-puing lainnya
+                  </p>
+                </div>
+                <button onclick="clickbutton(this.id)" id="3"><ion-icon name="arrow-undo"></ion-icon></button>
+               </div>
+           </div>
+        </div>
+        <!-- card3 -->
+            <div class="card">
+              <div id="card4" class="box-card">
+                <div class="card-page page_one flex">
+                  <div class="image-card flex">
+                    <img src="assets/gunung/abu.jpeg" alt="lahar dingin">
+                   </div>
+                   <h2>Hujan Abu</h2>
+                   <button onclick="clickbutton(this.id)" id="4"><ion-icon name="search"></ion-icon></button>
+               <span></span>
+
+                 </div>
+                 <div class="card-page page_two flex">
+                  <div class="content">
+                    <p>hujan abu akibat erupsi gunung berapi biasanya berisi debu, pasir, butiran lempung dan dapat menyebabkan penyakit mata dan infeksi saluran napas.
+                    </p>
+                  </div>
+                  <button onclick="clickbutton(this.id)" id="4"><ion-icon name="arrow-undo"></ion-icon></button>
+                 </div>
+          </div>
+        </div>
+        <!-- card4 -->
+      </div>
+    </section>
+    <section id="status">
+      <div class="container-status flex">
+        <div class="status_header flex">
+          <div class="box-hafua">
+            <h2>Status Gunung Api</h2>
+
+          </div>
+        </div>
+        <div class="con_status flex">
+          <ul class="list_status flex">
+            <li class="status">
+              <h4>Normal</h4>
+              <ul>
+                <li>
+                  <p>Pada gunung api yang diamati tidak ada perubahan aktivitas secara 
+                    visual, seismik, dan kejadian vulkanik</p>
+                </li>
+                <li><p>
+                  Tidak ada letusan hingga kurun waktu tertentu
+                </p></li>
+                <li><p>
+                  kegiatan gunung api tidak menunjukan adanya kelainan atau berada di level dasar
+                </p></li>
+              </ul>
+            </li>
+            <li class="status">
+              <h4>Waspada</h4>
+              <ul>
+                <li><p>
+                  Mulai meningkatnya aktivitas seismik dan mulai muncul kejadian vulkanik
+                </p></li>
+                <li>
+                  <p>
+                    Mulai terlihat perubahan visual di sekitar kawah
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Mulai terjadi gangguan magmatik, tektonik, atau hidrotermal tetapi diperkirakan tidak terjadi erupsi dalam jangka waktu tertentu
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li class="status">
+              <h4>Siaga</h4>
+              <ul>
+                <li>
+                  <p>
+                    Ada peningkatan seismik yang didukung dengan pemantauan vulkanik lainya
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Terlihat jelas perubahan baik secara visual maupun perubahan aktivitas kawah
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Jika peningkatan kegiatan gunung api terus berlanjut, kemungkinan erupsi besar mungkin terjadi dalam kurun dua pekan
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li class="status">
+              <h4>Awas</h4>
+              <ul><li>
+                <p>
+                  Kondisi paling memungkinkan terjadinya erupsi
+                </p>
+              </li>
+              <li>
+                <p>
+                  Status Awas merujuk letusan utama yang dilanjutkan dengan letusan awal, diikuti semburan abu dan uap
+                </p>
+              </li>
+              <li>
+                <p>
+                  Kemungkinan erupsi besar akan terjadi dalam 24 jam
+                </p>
+              </li>
+            </ul>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+    </section>
+  </div>
+  <div class="author flex">
+    <h4>Dibuat oleh <a href="">Handika Ayano</a></h4>
+    <h5 class="credit">credit image?</h5>
+  </div>
+  <!--* Main -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!-- my script -->
+<script src="main.js"></script>
+</body>
+</html>
